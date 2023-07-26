@@ -15,11 +15,12 @@ const Landing = () => {
             job <span>tracking</span> app
           </h1>
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur
-            facere totam quas, deleniti voluptatum et eveniet cupiditate iusto,
-            sed vitae modi at provident nulla consequuntur asperiores nam
-            debitis non corrupti! Veniam unde voluptatibus rem dolore
-            exercitationem illum maiores, aperiam quam?
+            TrackAJob is a WebApp which let's you track all your interview
+            applications and provide with you with interactive UI to add,
+            update, and delete Job Interviews which you are applying for.
+            <br />
+            Register Yourself and start saving your jobs so that you don't
+            forget one when the time arrives.
           </p>
           <Link to="/register" className="btn btn-hero">
             Login/Register
