@@ -1,6 +1,6 @@
 import { useDispatch, useSelector } from "react-redux";
 import { styled } from "styled-components";
-import Logo from "./Logo";
+import img from "../assets/images/t.png";
 import Navlinks from "./Navlinks";
 
 const BigSidebar = () => {
@@ -11,13 +11,13 @@ const BigSidebar = () => {
       <div
         className={
           isSidebarOpen
-            ? "sidebar-container show-sidebar"
-            : "sidebar-container "
+            ? "sidebar-container "
+            : "sidebar-container show-sidebar"
         }
       >
         <div className="content">
           <header>
-            <Logo />
+            <img src={img} alt="logo" className="logo" />
           </header>
           <Navlinks />
         </div>
@@ -51,6 +51,7 @@ const Wrapper = styled.aside`
       display: flex;
       align-items: center;
       padding-left: 2.5rem;
+      padding-top: 2rem;
     }
     .nav-links {
       padding-top: 2rem;

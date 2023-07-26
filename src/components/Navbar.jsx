@@ -25,7 +25,7 @@ const Navbar = () => {
           <FaAlignLeft />
         </button>
         <div>
-          <h2 className="logo-text">DashBoard</h2>
+          <h2 className="logo-text">Dashboard</h2>
           <Logo className="logo" />
         </div>
         <div className="btn-container">
@@ -59,7 +59,7 @@ const Wrapper = styled.nav`
   .logo {
     display: flex;
     align-items: center;
-    width: 100px;
+    width: 200px;
   }
   .nav-center {
     display: flex;

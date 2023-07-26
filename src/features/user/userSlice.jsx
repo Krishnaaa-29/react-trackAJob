@@ -11,7 +11,7 @@ import { clearValues } from "../job/jobSlice";
 
 const initialState = {
   isLoading: false,
-  isSidebarOpen: true,
+  isSidebarOpen: false,
   user: getUserfromLocalStorage(),
 };
 
